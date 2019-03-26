@@ -1,0 +1,19 @@
+<script>
+
+var f = 0;
+var s = 1;
+var next;
+  //document.write(f);
+  //document.write(s);
+ var num = prompt("Enter the no to generate fibonacci series", 0);
+  for(var i=0; i<num; i++)
+  {
+	  next = f+s;
+	  f = s;
+	  s = next;
+	  document.write(next);
+	
+  }
+
+
+</script>
